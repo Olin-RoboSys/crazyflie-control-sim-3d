@@ -1,0 +1,26 @@
+# translational 
+kp_x: 0.
+kp_y: 0.
+kp_z: 0.
+#-----
+ki_x: 0
+ki_y: 0
+ki_z: 0
+#-----
+kd_x: 0.
+kd_y: 0.
+kd_z: 0.
+#-----
+
+# rotational 
+kp_phi: 0.
+kp_theta: 0.
+kp_psi: 0.
+#-----
+ki_phi: 0.
+ki_theta: 0.
+ki_psi: 0.
+#-----
+kd_p: 0.
+kd_q: 0.
+kd_r: 0.

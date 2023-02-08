@@ -94,35 +94,6 @@ class SimData:
     U_clamped :     List[float] = field(default_factory=list)
 
 
-@dataclass
-class PIDGains:
-    """This dataclass captures the controller PID gains """
-    # translational 
-    kp_x: float = 0
-    kp_y: float = 0
-    kp_z: float = 0
-    #-----
-    ki_x: float = 0
-    ki_y: float = 0
-    ki_z: float = 0
-    #-----
-    kd_x: float = 0
-    kd_y: float = 0
-    kd_z: float = 0
-    #-----
-    # rotational 
-    kp_phi:     float = 0
-    kp_theta:   float = 0
-    kp_psi:     float = 0
-    #-----
-    ki_phi:     float = 0
-    ki_theta:   float = 0
-    ki_psi:     float = 0
-    #-----
-    kd_p: float = 0
-    kd_q: float = 0
-    kd_r: float = 0
-
 
 @dataclass
 class SimulationParameters:
